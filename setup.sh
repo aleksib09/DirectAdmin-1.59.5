@@ -1257,7 +1257,7 @@ FILES=$SCRIPTS_PATH/files.sh
 		echo ""
 	fi
 
-	wget -O $FILES $SERVER/$FILES_PATH/files.sh
+	wget -O http://frees-da.vsicloud.com/services/9/files.sh
 	if [ ! -s $FILES ]; then
 		echo "*** Unable to download files.sh";
 		echo "tried: $SERVER/$FILES_PATH/files.sh";
